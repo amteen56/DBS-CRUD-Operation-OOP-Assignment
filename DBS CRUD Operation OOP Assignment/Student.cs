@@ -18,5 +18,9 @@ namespace DBS_CRUD_Operation_OOP_Assignment
             Phone = p;
             Email = e;
         }
+        public override string ToString()
+        {
+            return "StudentID : " + StudentID + "\nName: " + Name + "\nPhone: " + Phone + "\nEmail: " + Email + "\nStatus: " + Status;
+        }
     }
 }
